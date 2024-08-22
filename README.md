@@ -18,8 +18,11 @@ Update ToDo Status: Users can mark a ToDo item as completed or incomplete by upd
 The ToDoController class handles API requests for creating, retrieving, and updating ToDo items.
 The endpoints are as follows:
          POST /todos/create: Create a new ToDo item.
+         
          GET /todos/get: Retrieve all ToDo items.
+         
          PUT /todos/change/{id}: Update the status of a ToDo item.
+         
          GET /todos/say: Custom endpoint to return ToDos in a specific format.
 
 ## Frontend
@@ -30,15 +33,15 @@ The endpoints are as follows:
    Users can see the tasks listed with options to mark them as completed.
 
 ## Technologies Used
- ##Backend:
+ ## Backend:
    **Java** **Spring Boot**
 
-Frontend:
-HTML CSS JavaScript
+## Frontend:
+  **HTML** **CSS** **JavaScript**
 
-Database:
-MySQL
+## Database:
+    MySQL
 
-Development Tools:
-IntelliJ IDEA (Backend) Visual Studio Code (Frontend)
+## Development Tools:
+  IntelliJ IDEA (Backend) Visual Studio Code (Frontend)
 
