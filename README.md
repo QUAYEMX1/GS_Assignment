@@ -26,11 +26,11 @@ The endpoints are as follows:
          GET /todos/say: Custom endpoint to return ToDos in a specific format.
 
 ## Frontend
-## Languages: HTML, CSS, JavaScript
-## Development Environment: Visual Studio Code (VS Code)
-## UI Design:
-   The frontend is designed to be simple and intuitive, allowing users to easily add tasks and manage their ToDo list.
-   Users can see the tasks listed with options to mark them as completed.
+  ## Languages: HTML, CSS, JavaScript
+  ## Development Environment: Visual Studio Code (VS Code)
+  ## UI Design:
+     The frontend is designed to be simple and intuitive, allowing users to easily add tasks and manage their ToDo list.
+     Users can see the tasks listed with options to mark them as completed.
 
 ## Technologies Used
  ## Backend:
