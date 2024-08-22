@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px;
+        }
+        .todo-item {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .todo-item.completed {
+            text-decoration: line-through;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ToDo App</h2>
+        <input type="text" id="todoInput" placeholder="Type your todo here...">
+        <button id="addTodoButton">SUBMIT</button>
+        <table id="todo-list"></table>
+    </div>
+
+    <script type="module" src="./Gs.js"></script>
+
+</body>
+</html>
